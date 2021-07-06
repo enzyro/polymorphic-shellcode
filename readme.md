@@ -4,7 +4,7 @@ le programme poly_xor permet de générer un shellcode polymorphique xoré, rend
 
 il suffit de rentrer le shellcode dans la variable shellcode du programme, eventuellement de changer la valeur avec laquelle ce shellcode va etre xoré dans la variable xorval. puis compiler le programme (en x86)
 
-gcc -m32 poly_xor.c -o poly_xor
+`gcc -m32 poly_xor.c -o poly_xor`
 
 et l'executer afin qu'il print le shellcode ainsi obtenu.
 
