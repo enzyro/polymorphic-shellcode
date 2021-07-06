@@ -14,3 +14,7 @@ le shellcode utilisé pour l'instant est disponible ici, créé par @MrTuxRacer 
 http://shell-storm.org/shellcode/files/shellcode-883.php
 
 il ne contient pas de null bytes a condition que l'adresse IP sur lequelle le reverse se connecte n'en contienne pas (d'ou l'utilisation de 127.1.1.1 et non 127.0.0.1)
+
+![Disass](disass_poly_xor.png)
+
+![Disass Decoding](disass_poly_xor_decoding.png)
